@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YelpMe</string>
+    <string name="saved_menu">Saved pics</string>
+    <string name="rand_photos"> randomized photos</string>
+    <string name="randomizing">Randomizing photos...</string>
+    <string name="search_photos">Result for</string>
+    <string name="searching">Searching..</string>
+    <string name="search_failed">Search failed!</string>
+    <string name="saved_photos">Saved photos</string>
+</resources>

@@ -114,13 +114,13 @@ public class MainActivity extends AppCompatActivity {
      * Method run when clicking "Search". If search is not empty it will perform it.
      * @param v
      */
-    public void getSearchPhotos(View v)
-    {
+    public void getSearchPhotos(View v) throws IOException {
 
         String searchQuery = mSearchTxt.getText().toString().toLowerCase().trim();
         if(!searchQuery.equals("")) {
             CardsAdapter.SHOWING_SAVED = false;
-            getUnsplashSearch(searchQuery);
+            //getUnsplashSearch(searchQuery);
+            getYelpSearch(searchQuery);
         }else{
 
             Toast.makeText(this, "\"It is hard to find if do not know what to look for\" - old chinese saying",
